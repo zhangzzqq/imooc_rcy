@@ -1,19 +1,25 @@
-package com.example.imooc_rcy;
+package com.example.imooc_rcy.main;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
+
+import com.example.imooc_rcy.MutiTypeActivity;
+import com.example.imooc_rcy.OnAdapterClickListener;
+import com.example.imooc_rcy.R;
+import com.example.imooc_rcy.RcyActivity;
+import com.example.imooc_rcy.simple.SimpleAdapter;
+import com.example.imooc_rcy.StaggeredActivity;
+import com.example.imooc_rcy.StaggeredHorActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -116,10 +122,10 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case R.id.nest_rcy_view:
-                startActivity(new Intent(MainActivity.this,RcyActivity.class));
+                startActivity(new Intent(MainActivity.this, RcyActivity.class));
                 break;
             case R.id.muti_rcy_view:
-                startActivity(new Intent(MainActivity.this,MutiTypeActivity.class));
+                startActivity(new Intent(MainActivity.this, MutiTypeActivity.class));
                 break;
         }
        // recyclerView.setAdapter(simpleAdapter);

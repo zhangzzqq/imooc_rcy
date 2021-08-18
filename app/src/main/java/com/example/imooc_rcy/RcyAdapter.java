@@ -16,7 +16,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-class RcyAdapter extends RecyclerView.Adapter<RcyAdapter.MyViewHolder> {
+public class RcyAdapter extends RecyclerView.Adapter<RcyAdapter.MyViewHolder> {
 
 
     private static final String TAG = "RcyAdapter";

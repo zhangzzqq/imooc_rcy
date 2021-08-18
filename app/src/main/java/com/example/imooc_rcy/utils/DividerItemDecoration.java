@@ -1,4 +1,4 @@
-package com.example.imooc_rcy;
+package com.example.imooc_rcy.utils;
 
 /*
  * Copyright (C) 2014 The Android Open Source Project

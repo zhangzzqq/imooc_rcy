@@ -1,14 +1,12 @@
 package com.example.imooc_rcy.viewholder;
 
-import android.media.Image;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.imooc_rcy.DataModel;
+import com.example.imooc_rcy.bean.DataModel;
 import com.example.imooc_rcy.R;
 
 

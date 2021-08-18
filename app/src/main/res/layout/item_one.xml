@@ -7,7 +7,7 @@
     android:orientation="horizontal"
     android:background="?selectableItemBackground"
     android:gravity="center_vertical"
-    tools:context=".MainActivity">
+    tools:context=".main.MainActivity">
 
 
    <ImageView

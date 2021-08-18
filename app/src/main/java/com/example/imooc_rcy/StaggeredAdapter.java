@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * 瀑布流 adapter
  */
-class StaggeredAdapter extends RecyclerView.Adapter<StaggeredAdapter.MyViewHolder> {
+public class StaggeredAdapter extends RecyclerView.Adapter<StaggeredAdapter.MyViewHolder> {
 
 
 

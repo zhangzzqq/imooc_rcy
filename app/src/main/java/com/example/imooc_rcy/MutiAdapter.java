@@ -3,13 +3,12 @@ package com.example.imooc_rcy;
 import android.content.Context;
 import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.imooc_rcy.bean.DataModel;
 import com.example.imooc_rcy.viewholder.TypeAbstractViewHolder;
 import com.example.imooc_rcy.viewholder.TypeOneViewHolder;
 import com.example.imooc_rcy.viewholder.TypeThreeViewHolder;
@@ -20,7 +19,7 @@ import java.util.List;
 /**
  * 多 type adpter
  */
-class MutiAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+public class MutiAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
 
     private static final String TAG = "MutiAdapter";

@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-class SimpleHorListAdapter extends RecyclerView.Adapter<SimpleHorListAdapter.MyViewHolder> {
+public class SimpleHorListAdapter extends RecyclerView.Adapter<SimpleHorListAdapter.MyViewHolder> {
 
 
 

@@ -6,9 +6,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
+import com.example.imooc_rcy.bean.DataModel;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 /**
  * 多type Rcy

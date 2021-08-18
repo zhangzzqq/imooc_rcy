@@ -1,4 +1,4 @@
-package com.example.imooc_rcy;
+package com.example.imooc_rcy.simple;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,6 +9,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.imooc_rcy.OnAdapterClickListener;
+import com.example.imooc_rcy.R;
+
 import java.util.List;
 
 /**
@@ -17,7 +20,7 @@ import java.util.List;
  *
  * @Date  2021/8/18 14:10
  **/
-class SimpleAdapter  extends RecyclerView.Adapter<SimpleAdapter.MyViewHolder> {
+public class SimpleAdapter  extends RecyclerView.Adapter<SimpleAdapter.MyViewHolder> {
 
 
 

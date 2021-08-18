@@ -6,7 +6,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import com.example.imooc_rcy.DataModel;
+import com.example.imooc_rcy.bean.DataModel;
 import com.example.imooc_rcy.R;
 
 

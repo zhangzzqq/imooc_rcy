@@ -5,5 +5,5 @@
     android:id="@+id/nest_rcy"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    tools:context=".MainActivity">
+    tools:context=".main.MainActivity">
 </androidx.recyclerview.widget.RecyclerView>

@@ -6,7 +6,7 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.imooc_rcy.DataModel;
+import com.example.imooc_rcy.bean.DataModel;
 
 public abstract  class TypeAbstractViewHolder extends RecyclerView.ViewHolder {
 

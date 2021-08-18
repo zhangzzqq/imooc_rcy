@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
-class ScrollAdapter extends RecyclerView.Adapter<ScrollAdapter.MyViewHolder> {
+public class ScrollAdapter extends RecyclerView.Adapter<ScrollAdapter.MyViewHolder> {
 
 
 
