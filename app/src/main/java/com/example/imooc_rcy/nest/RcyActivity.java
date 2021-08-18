@@ -1,4 +1,4 @@
-package com.example.imooc_rcy;
+package com.example.imooc_rcy.nest;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -7,6 +7,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
+
+import com.example.imooc_rcy.R;
 
 import java.util.ArrayList;
 import java.util.List;

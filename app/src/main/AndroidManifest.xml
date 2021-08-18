@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MutiTypeActivity"></activity>
-        <activity android:name=".StaggeredHorActivity" />
-        <activity android:name=".StaggeredActivity" />
-        <activity android:name=".RcyActivity" />
+        <activity android:name=".muti.MutiTypeActivity"></activity>
+        <activity android:name=".grid.StaggeredHorActivity" />
+        <activity android:name=".stagger.StaggeredActivity" />
+        <activity android:name=".nest.RcyActivity" />
         <activity android:name=".main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

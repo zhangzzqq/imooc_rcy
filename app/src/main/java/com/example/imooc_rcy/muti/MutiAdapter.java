@@ -1,4 +1,4 @@
-package com.example.imooc_rcy;
+package com.example.imooc_rcy.muti;
 
 import android.content.Context;
 import android.util.Log;
@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.imooc_rcy.OnAdapterClickListener;
+import com.example.imooc_rcy.R;
 import com.example.imooc_rcy.bean.DataModel;
 import com.example.imooc_rcy.viewholder.TypeAbstractViewHolder;
 import com.example.imooc_rcy.viewholder.TypeOneViewHolder;

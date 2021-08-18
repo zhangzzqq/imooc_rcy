@@ -1,4 +1,4 @@
-package com.example.imooc_rcy;
+package com.example.imooc_rcy.stagger;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,6 +8,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.imooc_rcy.OnAdapterClickListener;
+import com.example.imooc_rcy.R;
 
 import java.util.ArrayList;
 import java.util.List;

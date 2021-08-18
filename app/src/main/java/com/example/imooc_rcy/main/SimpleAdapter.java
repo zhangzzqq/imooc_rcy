@@ -1,4 +1,4 @@
-package com.example.imooc_rcy.simple;
+package com.example.imooc_rcy.main;
 
 import android.content.Context;
 import android.view.LayoutInflater;

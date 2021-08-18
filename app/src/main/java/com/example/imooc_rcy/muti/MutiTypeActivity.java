@@ -1,4 +1,4 @@
-package com.example.imooc_rcy;
+package com.example.imooc_rcy.muti;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -6,7 +6,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
+import com.example.imooc_rcy.R;
 import com.example.imooc_rcy.bean.DataModel;
+import com.example.imooc_rcy.muti.MutiAdapter;
 
 import java.util.ArrayList;
 import java.util.List;

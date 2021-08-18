@@ -13,13 +13,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import com.example.imooc_rcy.MutiTypeActivity;
+import com.example.imooc_rcy.muti.MutiTypeActivity;
 import com.example.imooc_rcy.OnAdapterClickListener;
 import com.example.imooc_rcy.R;
-import com.example.imooc_rcy.RcyActivity;
-import com.example.imooc_rcy.simple.SimpleAdapter;
-import com.example.imooc_rcy.StaggeredActivity;
-import com.example.imooc_rcy.StaggeredHorActivity;
+import com.example.imooc_rcy.nest.RcyActivity;
+import com.example.imooc_rcy.stagger.StaggeredActivity;
+import com.example.imooc_rcy.grid.StaggeredHorActivity;
 
 import java.util.ArrayList;
 import java.util.List;
